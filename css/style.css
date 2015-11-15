@@ -4,6 +4,7 @@
 /*base*/
 :root {
     font-size: 62.5%;
+    background-color:#f5f5f5;
 }
 body{
     width: 100%;
@@ -26,9 +27,34 @@ text no style sp
 */
 
 #text {
-    background-color:#f5f5f5;
+}
+#text .hidden{
+    overflow-x: hidden;
+}
+#text .wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+#text .entry-title-cover{
+    margin: 0 -500%;
+    margin-bottom: 2vh;
+  padding: 0 500%;
+    height: 200px;
+  background: #464646;
+    font-family: "游明朝体", "Yu Mincho", YuMincho, 'Hiragino Mincho Pro', serif;
+  font-size: 2.8rem;
+    font-weight:bolder;
+    text-align: center;
+    
 }
 
+
+#text .entry-title-cover h1{
+      line-height: 1;
+      position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 #text .entry-title {
   padding: 4vh 0;
   line-height: 1;
@@ -73,6 +99,16 @@ text no style sp
     float:left;
 }
 /*
+個別設定
+*/
+/*ワールドゲイズクリップス*/
+#text .entry-title-cover--wgc{
+        background-image: url('//f.st-hatena.com/images/fotolife/m/mindblinds/20151115/20151115191811_original.jpg?1447582744');
+    background-size:contain;
+    background-position:center center;
+}
+
+/*
 text no style tab ijo
 */
 
@@ -91,4 +127,13 @@ text no style tab ijo
 #text footer{
     padding: 0 10%;
 }
+
+/*
+個別設定
+*/
+/*ワールドゲイズクリップス*/
+#text .entry-title-cover--wgc{
+        background-image: url('//f.st-hatena.com/images/fotolife/m/mindblinds/20151115/20151115191811_original.jpg?1447582744');background-position:center center;background-repeat: no-repeat;background-size: cover ;background-attachment: fixed;
+}
+
 }
