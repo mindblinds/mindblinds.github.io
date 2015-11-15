@@ -10,6 +10,17 @@ body{
     height: 100%;
 }
 
+/*font setting*/
+.gothic{
+     font-family: "游明朝体", "Yu Mincho", YuMincho, 'Hiragino Mincho Pro', serif;
+}
+.mincho{
+     font-family: "游明朝体", "Yu Mincho", YuMincho, 'Hiragino Kaku Gothic Pro', serif;
+}
+.mono{
+    font-family: "Osaka−等幅", "ＭＳ ゴシック", monospace;
+}
+
 /*
 text no style sp
 */
@@ -32,7 +43,7 @@ text no style sp
 }
 #text .entry-content h2{
     line-height: 2.4;
-    font-family: "游明朝体", "Yu Mincho", YuMincho, 'Hiragino Kaku Gothic Pro', serif;
+    font-family: "游明朝体", "Yu Mincho", YuMincho, 'Hiragino Mincho Pro', serif;
     font-weight: bolder;
     font-size: 2.3rem;
 }
