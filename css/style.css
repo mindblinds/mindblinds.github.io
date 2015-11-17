@@ -103,7 +103,6 @@ text no style sp
 }
 #text .entry-content{
     padding: 0 2%;
-    text-align: justify;
 }
 #text .entry-content h2{
     line-height: 2.4;
@@ -115,6 +114,7 @@ text no style sp
   font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
     font-size: 1.4rem;
   margin: 0 0 3vh;
+    text-align: justify;
 }
 #text footer{
     padding: 2vh 2%;
