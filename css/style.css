@@ -13,13 +13,14 @@ body{
 
 /*font setting*/
 .gothic{
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+    font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN',
+ Meiryo, sans-serif;
 }
 .mincho{
-    font-family: "游明朝体", "Yu Mincho", YuMincho, 'Hiragino Mincho Pro', serif;
+    font-family: YuMincho, serif;
 }
 .mono{
-    font-family: "Osaka−等幅", "ＭＳ ゴシック", monospace;
+    font-family: 'Osaka−等幅', 'ＭＳ ゴシック', monospace;
 }
 
 /*
@@ -79,24 +80,28 @@ text no style sp
   padding: 0 500%;
     height: 200px;
   background: #464646;
-    font-family: "游明朝体", "Yu Mincho", YuMincho, 'Hiragino Mincho Pro', serif;
   font-size: 2.8rem;
     font-weight:bolder;
     text-align: center;
+        background-size:15%;
+    background-position:center center;
+    background-repeat: no-repeat;
     
 }
 
 
 #text .entry-title-cover h1{
-      line-height: 1;
-      position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+    line-height: 1.2;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:rgba(255,255,255,0.6);
 }
+
+
 #text .entry-title {
   padding: 4vh 0;
   line-height: 1;
-    font-family: "游明朝体", "Yu Mincho", YuMincho, 'Hiragino Mincho Pro', serif;
   font-size: 2.8rem;
     font-weight:bolder;
     text-align: center;
@@ -106,12 +111,10 @@ text no style sp
 }
 #text .entry-content h2{
     line-height: 2.4;
-    font-family: "游明朝体", "Yu Mincho", YuMincho, 'Hiragino Mincho Pro', serif;
     font-weight: bolder;
     font-size: 2.3rem;
 }
 #text .entry-content p {
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
     font-size: 1.4rem;
   margin: 0 0 3vh;
     text-align: justify;
@@ -121,28 +124,18 @@ text no style sp
     overflow: hidden;
 }
 #text footer .ore{
-    font-family: "Osaka−等幅", "ＭＳ ゴシック", monospace;
     font-size: 1rem;
     width: 50%;
     text-align: left;
     float:left;
 }
 #text footer .itsu{
-    font-family: "Osaka−等幅", "ＭＳ ゴシック", monospace;
     font-size: 1rem;
      width: 50%;
     text-align: right;
     float:left;
 }
-/*
-個別設定
-*/
-/*ワールドゲイズクリップス*/
-#text .entry-title-cover--wgc{
-        background-image: url('//f.st-hatena.com/images/fotolife/m/mindblinds/20151115/20151115191811_original.jpg?1447582744');
-    background-size:contain;
-    background-position:center center;
-}
+
 
 /*
 text no style tab ijo
@@ -153,6 +146,9 @@ text no style tab ijo
     padding: 8vh 0;
   font-size: 4rem;
 }
+    #text .entry-title-cover{
+        font-size: 4rem;
+    }
 #text .entry-content{
     padding: 0 10%;
     text-align: justify;
@@ -164,12 +160,3 @@ text no style tab ijo
     padding: 2vh 10%;
 }
 
-/*
-個別設定
-*/
-/*ワールドゲイズクリップス*/
-#text .entry-title-cover--wgc{
-        background-image: url('//f.st-hatena.com/images/fotolife/m/mindblinds/20151115/20151115191811_original.jpg?1447582744');background-position:center center;background-repeat: no-repeat;background-size: cover ;background-attachment: fixed;
-}
-
-}
