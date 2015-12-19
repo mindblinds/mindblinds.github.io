@@ -52,16 +52,7 @@ top no style sp
 #top .contents a:active,
 #top .contents a:hover{
     text-decoration: underline;
-}
-
-/*
-top no style tab ijo
-*/
-@media not all and (max-width: 768px) {
-    #top .contents a:hover{
-        text-decoration: underline;
-        background-color: #f5f5f5;
-    }
+    background-color: #f5f5f5;
 }
 
 /*
