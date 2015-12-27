@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Aviutlで - text | mindblinds </title>
+</head>
+<body id="text">
+<div class="wrapper">
+<header class="entry-title mincho">
+    <h1>Aviutlで</h1>
+</header>
+<article class="entry-content gothic">
+<p>録画はしてるけど見るだけ、キャプとかエンコなどしなくなってたけど、さっき思い立ってエンコした。でかいPCあった頃は、そっちにエンコの環境を入れてたけど、今ある小さいPCは録画しかしてないので、Aviutlなどの環境を初めから入れ直した。</p>
+   <p>でかいPCはi7の4コアだったのでx264でCPUエンコしてた。小さいのはi5で2コアなのでエンコには厳しい。しかし割と最近のi5なのでQSVでハードウェアエンコが行ける。そっちを使っていこうと思った。あんまり設定は詰められてないし、画質はx264が一日の長あるけど、でもこっちでも不足は感じない。</p>
+   <p>でかいPCのエンコ環境は何年も前に構築したやつで、TSを読み込むのにDGIndexでd2v作って、それをavisynthから呼び出してAviutlに渡してみたいなワークフローになってた。今はL-SMASHというすごいやつがあってTSが一発でAviutlに読み込めるようになってる。TSの音声を無変換でMP4に持ってく気持ちいいやつ（Fakeaactowav）さえ諦めればこれであっさりエンコできる。</p>
+   <p>インタレ保持か解除かはいろんな考え方があるみたいだけど、スマートフォンとかブラウザとかはインタレを扱えないので、直接そこで再生させる用途だったら解除してやりたいところだなーと思う。アニメは24fps、テレビカメラは60fps、DSLRで撮ってるクオリティ高い系は30fpsって感じだと思う。今やYouTubeは60fps対応だから、Bob化で60fpsというのも一つの考え方かもしれない。</p>
+   <p>24fps化、Avisynthに自動でかなりいい感じに判定して自動でやってくれるやつあったから、本来それ使った方がいいかもしれない。L-SMASHでラクにやるっていうのと両立するのわからなかったから、今はマニュアル24fpsを使ってる。目で見て丁度いい周期を見つけるとバシッと24fps化できる。マニュアルだから面倒いけど、まあこれでもいいかと思う。</p>
+   <p>ノイズ除去はあんまり凝ってもエンコが重くなるばかりだし、今はそこまで凝る時代でもないと思う。気に入ってるのはモスキートノイズ除去で、これをごくごく弱くかけておくと、容量が縮みやすくなる気がして便利。</p>
+   <p>透過性ロゴ、どうせエンコするならこれかけとかないと損という感じ。</p>
+   <p>エンコ、どうしてもどっこいせという感じで気軽にはできない。もっと瞬間的にできるようにして、クリップ作って色々あれできればなあという感じ。</p>
+   
+    <aside><a href="/">top</a></aside>
+</article>
+<footer>
+<div class="ore">made by mindblinds.</div>
+<div class="itsu">2015/11/15</div>
+</footer>
+</div>
+</body>
+</html> 
