@@ -137,11 +137,11 @@ text no style sp
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     transition: ease-out 0.2s;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #aaa;
     background-color: #efefef;
     border: solid 1px #e1e1e1;
-    padding:0.6rem 3rem;
+    padding:1rem 5rem;
     
 }
 #text aside a:hover,
