@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <script async src="/js/main.js"></script>
     <title>mindblinds</title>
 </head>
 <body id="top">
@@ -13,6 +12,7 @@
     <h1 class="mincho">mindblinds</h1>
 </header>
 <article class="contents mincho">
+<h1 class="mincho">2015</h1>
 <a href="/text/20151227/aviutl/">Aviutlで</a>
 <a href="/text/20151213/cssmutsukashi/">CSSややこしくなってきた</a>
     <a href="text/20151213/oneechanbara/">お姉チャンバラZ2 〜カオス〜 の感想</a>
@@ -21,5 +21,14 @@
 <a href="/text/20151115/github/">github pages でなんか書こう</a>
 </article>
 </div>
+<script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+<script>
+$( 'a' )
+.bind( 'touchstart', function(){
+$( this ).addClass( 'hover' );
+}).bind( 'touchend', function(){
+$( this ).removeClass( 'hover' );
+});
+</script>
 </body>
 </html>
