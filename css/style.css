@@ -49,8 +49,9 @@ top no style sp
     background-color: #eee;
     color: #000;
 }
-#top .contents a:active,
-#top .contents a:hover{
+#top .contents a:hover,
+#top .contents a.hover
+{
     text-decoration: underline;
     background-color: #f5f5f5;
 }
@@ -143,8 +144,8 @@ text no style sp
     padding:0.6rem 3rem;
     
 }
-#text aside a:active,
-#text aside a:hover{
+#text aside a:hover,
+#text aside a.hover{
     border: solid 1px #efefef;
 }
 
