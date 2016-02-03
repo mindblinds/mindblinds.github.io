@@ -48,14 +48,12 @@ top no style sp
     word-break: break-all;
     padding: 0 2% ;
 }
-#top .hidden{
-    overflow-x: hidden;
-}
 #top .wrapper{
     max-width: 960px;
     min-height: 100%;
     margin: 0 auto;
-    background-color: #f4f4f4
+    background-color: #f4f4f4;
+    position:relative;
 }
 #top .contents{
     font-size: 1.6rem;
@@ -69,7 +67,9 @@ top no style sp
 #top .contents a{
     display:block;
     -webkit-tap-highlight-color: transparent;
-    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left:2%;
+    margin-right:2%;
     padding:1vh 2%;
     background-color: #eee;
     color: #000;
